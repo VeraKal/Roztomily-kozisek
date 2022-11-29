@@ -18,6 +18,7 @@ h2 {
   font-weight: 800;
   font-size: 28px;
   text-align: center;
+  margin: 2em 0;
 }
 
 h3 {
@@ -39,7 +40,7 @@ p {
 }
 
 .header {
-  margin: 30px 15px 20px 15px;
+  margin: 30px 0 20px 0;
 }
 .header__wrapper {
   display: flex;
@@ -62,6 +63,7 @@ p {
 }
 .header__logo-image {
   max-width: 100%;
+  padding: 0 15px;
 }
 
 .menu__list {
@@ -83,7 +85,7 @@ p {
     text-align: left;
   }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 800px) {
   .menu__item {
     display: inline-block;
   }
@@ -157,9 +159,9 @@ p {
   }
 }
 .hero {
-  max-height: 500px;
+  min-height: 350px;
   background-image: url(/images/potkani643_500.jpg);
-  background-position: center;
+  background-position: right;
   background-size: cover;
   position: relative;
   padding: 10px 0;
@@ -167,17 +169,35 @@ p {
 @media screen and (min-width: 500px) {
   .hero {
     background-image: url(/images/potkani643.jpg);
+    min-height: 400px;
+    background-position: center;
   }
 }
-.hero__text {
-  max-width: 400px;
-  text-align: left;
+@media screen and (min-width: 800px) {
+  .hero {
+    background-image: url(/images/potkani643.jpg);
+    min-height: 550px;
+    background-position: center;
+  }
 }
-.hero__subtitle {
-  max-width: 400px;
+.hero__title, .hero__subtitle {
+  max-width: 200px;
+  text-align: left;
+  margin: 1em 15px 1em 15px;
 }
 @media screen and (min-width: 500px) {
-  .hero__subtitle {
+  .hero__title, .hero__subtitle {
     max-width: 400px;
+    margin: 1.5em 15px 1.5em 15px;
   }
+}
+@media screen and (min-width: 800px) {
+  .hero__title, .hero__subtitle {
+    max-width: 650px;
+    margin: 2em 15px 2em 15px;
+  }
+}
+
+.breeding-rats {
+  color: #EDEDED;
 }/*# sourceMappingURL=style.css.map */

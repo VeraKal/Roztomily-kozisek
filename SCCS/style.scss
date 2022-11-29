@@ -5,34 +5,47 @@
 
 
 .hero {  
-  max-height: 500px;
+  min-height: 350px;
   background-image: url(/images/potkani643_500.jpg);
-  background-position: center;  
+  background-position: right;  
   background-size: cover;
   position: relative;
   padding: 10px 0;
 
     @media screen and (min-width: 500px) {
       background-image: url(/images/potkani643.jpg);
-      
-    }
-  
+      min-height: 400px;
+      background-position: center;
+    }  
 
-  &__text {
-    max-width: 400px;
-    text-align: left;
+    @media screen and (min-width: 800px) {
+      background-image: url(/images/potkani643.jpg);
+      min-height: 550px;
+      background-position: center;
+    } 
+
+  &__title,
+  &__subtitle   {
+    max-width: 200px;
+    text-align: left; 
+    margin: 1em 15px 1em 15px; 
   
+      @media screen and (min-width: 500px) {      
+      max-width: 400px;
+      margin: 1.5em 15px 1.5em 15px; 
+
+    }
+
+    @media screen and (min-width: 800px) {      
+      max-width: 650px;
+      margin: 2em 15px 2em 15px; 
+
+    }
   }
-
-  &__subtitle {
-    max-width: 400px;
-    
-
-    @media screen and (min-width: 500px) {      
-    max-width: 400px;
-
-    }
-  
 }
+
+.breeding-rats {
+  color: colors.$background;
 }
+
 

@@ -9,10 +9,12 @@ html {
     box-sizing: inherit;
   }
 
+  
   h1 {
     color: colors.$text;
     font-weight:800;
     font-size: 48px; 
+    
   }
 
   h2 {
@@ -20,6 +22,7 @@ html {
     font-weight:800;
     font-size: 28px; 
     text-align: center;
+    margin: 2em 0;
   }
   
   h3 {
