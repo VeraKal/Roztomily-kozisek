@@ -1,0 +1,38 @@
+@use 'colors';
+@use 'basics';
+@use 'header';
+@use 'footer';
+
+
+.hero {  
+  max-height: 500px;
+  background-image: url(/images/potkani643_500.jpg);
+  background-position: center;  
+  background-size: cover;
+  position: relative;
+  padding: 10px 0;
+
+    @media screen and (min-width: 500px) {
+      background-image: url(/images/potkani643.jpg);
+      
+    }
+  
+
+  &__text {
+    max-width: 400px;
+    text-align: left;
+  
+  }
+
+  &__subtitle {
+    max-width: 400px;
+    
+
+    @media screen and (min-width: 500px) {      
+    max-width: 400px;
+
+    }
+  
+}
+}
+

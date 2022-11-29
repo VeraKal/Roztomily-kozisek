@@ -1,0 +1,42 @@
+@use 'colors';
+
+html {
+    box-sizing: border-box;
+    font-family:'Assistant', sans-serif;
+  }
+  
+  *, ::before, ::after {
+    box-sizing: inherit;
+  }
+
+  h1 {
+    color: colors.$text;
+    font-weight:800;
+    font-size: 48px; 
+  }
+
+  h2 {
+    color: colors.$text;
+    font-weight:800;
+    font-size: 28px; 
+    text-align: center;
+  }
+  
+  h3 {
+    color: colors.$text;
+    font-weight: 700;
+    font-size: 18px; 
+    text-align: center;
+  }
+
+  p {
+    color: colors.$text;
+    font-size: 18px;    
+  }
+
+  .content-width {
+    max-width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+

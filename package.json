@@ -1,0 +1,24 @@
+{
+  "name": "roztomily-kozisek",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeraKal/Roztomily-kozisek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeraKal/Roztomily-kozisek/issues"
+  },
+  "homepage": "https://github.com/VeraKal/Roztomily-kozisek#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
