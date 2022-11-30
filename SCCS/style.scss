@@ -45,7 +45,68 @@
 }
 
 .breeding-rats {
-  color: colors.$background;
+  background-color: colors.$background;
+
+  &__title {
+    padding-top: 2em;
+  }
+
+  &__overview {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto 15px;
+
+    @media screen and (min-width: 500px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    @media screen and (min-width: 700px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+    }
+
+    @media screen and (min-width: 900px) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 15px;
+    }
+  }
 }
+
+.person {
+
+  &__foto {
+    width: 100%;
+    box-shadow: 2px 2px 5px colors.$footer-background;
+  }
+
+  &__gender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__name {
+    margin-top: 0px;
+  }
+
+
+  &__desc {
+    text-align: center;
+  }
+
+}
+
+.gender {
+
+  &__icon {
+  width: 25px;
+  height: 25px;
+  }
+
+ 
+}
+
+
 
 
