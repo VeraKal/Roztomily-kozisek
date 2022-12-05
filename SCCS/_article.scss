@@ -1,0 +1,51 @@
+
+.article {
+
+    &__image-container {
+        margin: 0 15px;
+        
+        @media screen and (min-width: 900px) {
+            width: 50%;
+            float: left;
+            margin: 0 30px 25px 15px;
+        }
+    }
+
+    &__image {
+        max-width: 100%;
+        padding: 0 15px;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;        
+
+        @media screen and (min-width: 600px) {
+            max-width: 570px;
+
+        }
+
+        @media screen and (min-width: 900px) {
+            padding: 0;
+
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+
+        &__title {
+            text-align: left;
+            padding-top: 15px;
+        }
+    }
+
+    &__perex {
+        font-style: italic;
+        font-weight: 600;
+        margin-bottom: 1.7em;
+    }
+
+    &__button {
+        margin: 40px 0;
+    }
+
+}

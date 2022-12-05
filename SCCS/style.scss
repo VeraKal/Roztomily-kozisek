@@ -2,6 +2,9 @@
 @use 'basics';
 @use 'header';
 @use 'footer';
+@use 'product';
+@use 'article';
+@use 'blog';
 
 
 .hero {  
@@ -130,5 +133,4 @@
     width: 100%;
   }
 }
-
 

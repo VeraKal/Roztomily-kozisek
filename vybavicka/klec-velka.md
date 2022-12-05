@@ -1,7 +1,7 @@
 ---
 layout: layouts/product.njk
 title: Klec velká
-perex: Kvalitní prostorná klec pro 2 - 4 potkany. Vysoká 70 cm, široká 60 cm a hluboká 50 cm. Odklápěcí horní víko pro snadné čištění, vyklápěcí přední dvířka pro ještě lešpí dostupnost. Plastové vysoké dno se snadno čistí, dvě výškově nastavitelné plastové police dovolují kreativní stavění hřiště pro potkánky.
+perex: Kvalitní prostorná klec pro 2 - 4 potkany. Vysoká 70 cm, široká 60 cm a hluboká 50 cm. Odklápěcí horní víko pro snadné čištění, vyklápěcí přední dvířka pro ještě lešpí dostupnost. Plastové vysoké dno se snadno čistí, dvě výškově nastavitelné plastové police dovolují kreativní stavbu toho nejlepšího hřiště i odpočívárny pro potkánky.
 price: 2 290 Kč
 foto: klec-velka.jpg
 tags: product

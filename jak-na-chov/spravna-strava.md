@@ -1,10 +1,9 @@
 ---
-layout: layouts/product.njk
-title: Klec malá
-perex: Kvalitní prostorná klec pro 2 potkany. Vysoká 60 cm, široká 50 cm a hluboká 50 cm. Odklápěcí horní víko pro snadné čištění, vyklápěcí přední dvířka pro ještě lešpí dostupnost. Plastové vysoké dno se snadno čistí, dvě výškově nastavitelné plastové police. Vhodná pro začínající chovatele při nedostatku prostoru. Pokud máte v plánu chovat více než dva potkánky, určitě doporučujeme pro jejich pohodu klec větších rozměrů.
-price: 1 990 Kč
-foto: klec-mala.jpg
-tags: product
+layout: layouts/article.njk
+title: Jak na správnou zdravou stravu
+perex: Kvalitní zdravá strava je pro potkany základ. Bez ní dříve nebo později přichází zdravotní problémy. Dnes už je na trhu mnoho kvalitních výrobců a dodavatelů krmných směsí potkanům na míru. Pojďme si shrnout, co je pro potkánky v jejich menu zásadní... 
+foto: blog7.jpg
+tags: blog
 ---
 
 

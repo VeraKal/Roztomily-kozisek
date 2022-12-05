@@ -1,0 +1,20 @@
+---
+layout: layouts/main-layout.njk
+---
+    
+<article class="article content-width">
+    <div class="article__image-container">
+        <img class="article__image" src="/images/{{foto}}" alt="{{ alt }}">
+    </div>       
+
+    <h2 class="article__title"> {{ title }} </h2>
+    <p class="article__perex"> {{perex}} </p>
+    <div class="article__text">
+        {{ content | safe }} 
+    </div>
+
+    <div class="article__button button">
+        <a class="button__link--light" href="/jak-na-chov/">Zpět na přehled...</a>
+    </div>
+
+</article>

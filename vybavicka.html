@@ -6,18 +6,20 @@ title: Výbavička
 
 {% for goods in collections.product  %}
 
-<div class="goods content-width">
-    <div class="goods__image-container">
-        <img src="/images/{{ goods.data.foto }}" alt="{{title}}">
+<div class="goods-list product content-width">
+    <div class="product__image-container">
+        <img class="product__image" src="/images/{{ goods.data.foto }}" alt="{{title}}">
     </div>
-    <div class="goods__info">
-        <h2> {{ goods.data.title }} </h2>
-        <p> {{ goods.data.perex }} </p>
+    <div class="product__container">
+        <h2 class="product__title"> {{ goods.data.title }} </h2>
+        <p class="product__short-description"> {{ goods.data.perex }} </p>
         <h2 class="product__price" > {{ goods.data.price }} </h2>
         <div class="product__button button">
             <a class="button__link" href="{{ goods.url }}">Detail...</a>
         </div>
     </div>
 </div>
+
+
 {% endfor %}
 
