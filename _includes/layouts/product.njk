@@ -1,0 +1,24 @@
+---
+layout: layouts/main-layout.njk
+---
+    
+<div class="product content-width">
+    <div class="product__image-container">
+        <img class="product__image" src="/images/{{foto}}" alt="{{ title }}">
+    </div>
+    
+    <div class="product__container">
+        <h2 class="product__title"> {{ title }} </h2>
+        <p product__short-description> {{perex}} </p>
+        <h2 class="product__price" > {{price}} </h2>
+        <div class="product__button button">
+            <a class="button__link" href="">Objednat</a>
+        </div>
+    </div>            
+
+        
+    <div class="product__long-description">
+        {{ content | safe }} 
+    </div>
+</div>
+

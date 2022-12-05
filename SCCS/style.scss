@@ -28,6 +28,7 @@
   &__subtitle   {
     max-width: 200px;
     text-align: left; 
+    text-shadow: 0px 0px 10px #ffffff;
     margin: 1em 15px 1em 15px; 
   
       @media screen and (min-width: 500px) {      
@@ -49,7 +50,7 @@
 
   &__title {
     padding-top: 2em;
-  }
+    }
 
   &__overview {
     display: grid;
@@ -106,7 +107,7 @@
 }
 
 .about {
-
+    
     &__gallery {
     margin: 60px 0 0 0;
     display: grid;

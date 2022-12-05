@@ -6,20 +6,20 @@
         </div>
         <nav class="menu">
             <ul class="menu__list">
-                <li class="menu__item">
-                    <a class="menu__link" href="/">Úvod</a>
+                <li class="menu__item {% if page.fileSlug === '' %} menu__item--active {% endif %}">
+                    <a class="menu__link " href="/">Úvod</a>
                 </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="/mladata-k-odberu/">Mláďata k odběru</a>
+                <li class="menu__item {% if page.fileSlug === 'mladata-k-odberu' %} menu__item--active {% endif %}">
+                    <a class="menu__link " href="/mladata-k-odberu/">Mláďata k odběru</a>
                 </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="/jak-na-chov/">Jak na chov</a>
+                <li class="menu__item {% if page.fileSlug === 'jak-na-chov' %} menu__item--active {% endif %}">
+                    <a class="menu__link " href="/jak-na-chov/">Jak na chov</a>
                 </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="/vybavicka/">Výbavička</a>
+                <li class="menu__item {% if page.fileSlug === 'vybavicka' %} menu__item--active {% endif %}">
+                    <a class="menu__link " href="/vybavicka/">Výbavička</a>
                 </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="/kontakt/">Kontakt</a>
+                <li class="menu__item {% if page.fileSlug === 'kontakt' %} menu__item--active {% endif %}">
+                    <a class="menu__link " href="/kontakt/">Kontakt</a>
                 </li>            
             </ul>
         </nav>

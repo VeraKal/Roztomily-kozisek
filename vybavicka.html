@@ -3,11 +3,21 @@ layout: layouts/main-layout.njk
 title: Výbavička
 ---
 
-<h2>Výbavička</h2>
 
-<h3>Tady bude nadpis h3</h3>
+{% for goods in collections.product  %}
 
-<p>Tady bude obsah Úvodní strany <br>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sint maxime eos. Unde optio labore soluta qui! Alias et asperiores odio, distinctio perspiciatis enim, animi autem explicabo porro quisquam hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sint maxime eos. Unde optio labore soluta qui! Alias et asperiores odio, distinctio perspiciatis enim, animi autem explicabo porro quisquam hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sint maxime eos. Unde optio labore soluta qui! Alias et asperiores odio, distinctio perspiciatis enim, animi autem explicabo porro quisquam hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sint maxime eos. Unde optio labore soluta qui! Alias et asperiores odio, distinctio perspiciatis enim, animi autem explicabo porro quisquam hic!</p>
-
+<div class="goods content-width">
+    <div class="goods__image-container">
+        <img src="/images/{{ goods.data.foto }}" alt="{{title}}">
+    </div>
+    <div class="goods__info">
+        <h2> {{ goods.data.title }} </h2>
+        <p> {{ goods.data.perex }} </p>
+        <h2 class="product__price" > {{ goods.data.price }} </h2>
+        <div class="product__button button">
+            <a class="button__link" href="{{ goods.url }}">Detail...</a>
+        </div>
+    </div>
+</div>
+{% endfor %}
 

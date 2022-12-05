@@ -68,7 +68,8 @@
             text-align: center;        
             }
     }
-    
+
+       
     &__link {
         display: block;
         color: colors.$text;
@@ -78,6 +79,13 @@
         @media screen and (min-width: 900px) { 
             padding: 10px; 
             }
+
+   
+            
     }
 }
 
+.menu__item--active a {
+    text-decoration: underline;
+    color: colors.$primary;
+}
