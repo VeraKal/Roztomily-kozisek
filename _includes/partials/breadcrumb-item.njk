@@ -1,3 +1,15 @@
-<div class="breadcrumb">
-    <h2> {% if page.fileSlug === 'vybavicka' %} Výbavička {% endif %} {% if page.fileSlug === 'jak-na-chov' %} Jak na chov {% endif %} - {{title}} </h2>
-</div>
+
+<nav class="breadcrumb">
+    <div class="breadcrumb__list content-width">
+        <div class="breadcrumb__item">
+            <a class="breadcrumb__link" href="/vybavicka/">{{ 'Výbavička' if '/vybavicka' in page.url }}</a>
+            <a class="breadcrumb__link" href="/jak-na-chov/">{{ 'Jak na chov' if '/jak-na-chov' in page.url }}</a>
+        </div>
+        <div class="breadcrumb__item">
+            <p class="breadcrumb__separator" > - </p>
+        </div>
+        <div class="breadcrumb__item">
+            <p class="breadcrumb__title"> {{title}} </p>
+        </div>
+    </div>
+</nav>

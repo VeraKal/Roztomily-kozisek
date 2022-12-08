@@ -9,16 +9,16 @@
                 <li class="menu__item {% if page.fileSlug === '' %} menu__item--active {% endif %}">
                     <a class="menu__link " href="/">Úvod</a>
                 </li>
-                <li class="menu__item {% if page.fileSlug === 'mladata-k-odberu' %} menu__item--active {% endif %}">
+                <li class="menu__item {{ 'menu__item--active' if '/mladata-k-odberu' in page.url }}">
                     <a class="menu__link " href="/mladata-k-odberu/">Mláďata k odběru</a>
                 </li>
-                <li class="menu__item {% if page.fileSlug === 'jak-na-chov' %} menu__item--active {% endif %}">
+                <li class="menu__item {{ 'menu__item--active' if '/jak-na-chov' in page.url }}">
                     <a class="menu__link " href="/jak-na-chov/">Jak na chov</a>
                 </li>
-                <li class="menu__item {% if page.fileSlug === 'vybavicka' %} menu__item--active {% endif %}">
+                <li class="menu__item {{ 'menu__item--active' if '/vybavicka' in page.url }}">
                     <a class="menu__link " href="/vybavicka/">Výbavička</a>
                 </li>
-                <li class="menu__item {% if page.fileSlug === 'kontakt' %} menu__item--active {% endif %}">
+                <li class="menu__item {{ 'menu__item--active' if '/kontakt' in page.url }}">
                     <a class="menu__link " href="/kontakt/">Kontakt</a>
                 </li>            
             </ul>

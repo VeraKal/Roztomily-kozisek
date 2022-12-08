@@ -1,7 +1,9 @@
 ---
 layout: layouts/main-layout.njk
 ---
-    
+
+{% include 'partials/breadcrumb-item.njk' %}
+
 <div class="product content-width">
     <div class="product__image-container">
         <img class="product__image" src="/images/{{foto}}" alt="{{ title }}">
@@ -15,7 +17,6 @@ layout: layouts/main-layout.njk
             <a class="button__link" href="">Objednat</a>
         </div>
     </div>            
-
         
     <div class="product__long-description">
         {{ content | safe }} 

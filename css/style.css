@@ -358,6 +358,115 @@ p {
   }
 }
 
+.contact__intro {
+  margin: 40px auto;
+  padding-left: 15px;
+  text-align: center;
+}
+@media screen and (min-width: 900px) {
+  .contact__wrapper {
+    display: grid;
+    grid-template-columns: 45% 5% 50%;
+  }
+}
+.contact__info {
+  text-align: center;
+}
+@media screen and (min-width: 900px) {
+  .contact__info {
+    grid-column: 1/2;
+    text-align: right;
+  }
+}
+.contact__address::first-line {
+  font-weight: 700;
+}
+.contact__email-text, .contact__phone-text {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.contact__phone-time {
+  margin-top: 5px;
+}
+.contact__email-link, .contact__phone-link {
+  color: #141414;
+  font-weight: 700;
+  font-size: 18px;
+}
+@media screen and (min-width: 500px) {
+  .contact__email-link, .contact__phone-link {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .contact__email-link, .contact__phone-link {
+    margin-right: 15px;
+  }
+}
+.contact__map {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 900px) {
+  .contact__map {
+    grid-column: 3/4;
+    margin-top: 0;
+  }
+}
+
+.breadcrumb {
+  background-color: #EDEDED;
+  text-align: center;
+  margin: 20px 0;
+}
+.breadcrumb__list {
+  padding-left: 0;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 15px;
+}
+@media screen and (min-width: 500px) {
+  .breadcrumb__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.breadcrumb__title {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0.9em;
+}
+@media screen and (min-width: 500px) {
+  .breadcrumb__title {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .breadcrumb__title {
+    font-size: 28px;
+  }
+}
+.breadcrumb__link {
+  color: #141414;
+}
+@media screen and (min-width: 500px) {
+  .breadcrumb__link {
+    font-size: 18px;
+  }
+}
+.breadcrumb__separator {
+  margin: 0 5px 3px 5px;
+  line-height: 0.5em;
+}
+
 .hero {
   min-height: 350px;
   background-image: url(/images/potkani643_500.jpg);
