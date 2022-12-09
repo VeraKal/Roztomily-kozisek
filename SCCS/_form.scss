@@ -1,0 +1,39 @@
+@use 'colors';
+
+.contact-form {
+    background-color: colors.$background;
+    width: 100%;
+    max-width: 545px;
+    margin: 40px auto;
+    padding: 20px 15px;
+    
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    &__title {
+        margin: 20px 0;
+    }
+
+    &__description {
+        text-align: center;
+        margin: 15px 0px;
+    }
+
+    &__field {
+        margin-bottom: 10px;
+
+        & label {
+            display: block;
+            font-size: 16px;
+        }
+
+        & input,
+        & textarea {
+            width: 100%;
+            font-size: 18px;
+        }
+    }
+}

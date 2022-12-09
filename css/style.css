@@ -467,6 +467,36 @@ p {
   line-height: 0.5em;
 }
 
+.contact-form {
+  background-color: #EDEDED;
+  width: 100%;
+  max-width: 545px;
+  margin: 40px auto;
+  padding: 20px 15px;
+}
+.contact-form__wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.contact-form__title {
+  margin: 20px 0;
+}
+.contact-form__description {
+  text-align: center;
+  margin: 15px 0px;
+}
+.contact-form__field {
+  margin-bottom: 10px;
+}
+.contact-form__field label {
+  display: block;
+  font-size: 16px;
+}
+.contact-form__field input, .contact-form__field textarea {
+  width: 100%;
+  font-size: 18px;
+}
+
 .hero {
   min-height: 350px;
   background-image: url(/images/potkani643_500.jpg);

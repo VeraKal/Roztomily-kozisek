@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: Jak na správnou zdravou stravu
-perex: Kvalitní zdravá strava je pro potkany základ. Bez ní dříve nebo později přichází zdravotní problémy. Dnes už je na trhu mnoho kvalitních výrobců a dodavatelů krmných směsí potkanům na míru. Pojďme si shrnout, co je pro potkánky v jejich menu zásadní... 
+perex: Kvalitní zdravá strava je pro potkany základ, bez ní dříve nebo později přichází zdravotní problémy. Dnes už je na trhu mnoho kvalitních výrobců a dodavatelů krmných směsí mixovaných s potřebnými znalostmi a láskou potkanům na míru. Pojďme si shrnout, co je pro potkánky v jejich menu zásadní... 
 foto: blog7.jpg
 tags: blog
 ---
