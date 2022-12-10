@@ -12,9 +12,11 @@ layout: layouts/main-layout.njk
     <div class="product__container">
         <h2 class="product__title"> {{ title }} </h2>
         <p class="product__short-description"> {{perex}} </p>
+        <p class="product__manufacturer"> Výrobce: {{manufacturer}} </p>
+        <p class="product__origin"> Vyrobeno: {{origin}} </p>
         <h2 class="product__price" > {{price}} </h2>
         <div class="product__button button">
-            <a class="button__link" href="">Objednat</a>
+            <a class="button__link" href="#order-form">Objednat</a>
         </div>
     </div>            
         
@@ -22,4 +24,6 @@ layout: layouts/main-layout.njk
         {{ content | safe }} 
     </div>
 </div>
-
+<spann id="order-form">
+    {% include 'partials/form-goods-order.njk' %}
+</span>

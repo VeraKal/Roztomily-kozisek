@@ -4,6 +4,8 @@ title: Jarní krmná směs 1 kg
 perex: To nejlepší pro bříška vašich potkanů. Mnoho vitamínů, minerálů, příměs bílkovin, vše jen z těch nejkvalitnějších surovin při důrazu na šetrnou a ekologickou výrobu. Obilí, pohanka, jáhly, slunečnice, mrkev, petržel, sušení cvrčci. 
 price: 340 Kč
 foto: krmeni.jpg
+origin: Česká republika
+manufacturer: HappyRats
 tags: product
 ---
 

@@ -4,6 +4,8 @@ title: Tvrdé podestýlkové habrové hobliny
 perex: Tvrdší varianta bezprašných hoblin. Velké a silnější habrové hobliny jsou neprašné a hodí se jako doplňková podestýlka.Jsou savé a dlouho vydrží bez zápachu. Objem 15 litrů stlačeno na rozměr 40 x 35 x 20 cm pro snadné skladování.
 price: 390 Kč
 foto: piliny-hrube.jpg
+origin: Česká republika
+manufacturer: Pila U sekyrky
 tags: product
 ---
 

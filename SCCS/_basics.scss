@@ -3,6 +3,7 @@
 html {
     box-sizing: border-box;
     font-family:'Assistant', sans-serif;
+    scroll-behavior: smooth;
   }
   
 *, ::before, ::after {
@@ -51,15 +52,19 @@ p {
         &__link {
             display: inline-block;
             background-color: colors.$primary;
-            color: #ffffff;
+            color: colors.$text-inverse;
             text-decoration: none;
             font-size: 18px;
             font-weight: 700;
             padding: 15px 25px;
             margin: 15px 15px;
 
+            &:hover {
+                background-color: colors.$secondary;
+            }
+
             &--light {
-                background-color: #ffffff;
+                background-color: colors.$text-inverse;
                 color: colors.$text;
                 border: 1px solid colors.$text;
                 text-decoration: none;
@@ -67,6 +72,11 @@ p {
                 font-weight: 700;
                 padding: 15px 25px;
                 margin: 15px 15px;
+
+                &:hover {
+                    color: colors.$secondary;
+                    border: 1px solid colors.$secondary;
+                }
             }
         }
 

@@ -1,8 +1,9 @@
 
 <form class="contact-form content-width" action="http://formular.itgirls.cz" method="get">
 
-    <h2 class="contact-form__title">Napište nám</h2>
-    <p class="contact-form__description">Zanechte nám vzkaz a ozvememe se Vám zpět co nejdříve. Kopii odeslané zprávy Vám zašleme na Váš email.</p>
+    <h2 class="contact-form__title">Objednejte si</h2>
+    
+    <p class="contact-form__description">Chystáte-li se k nám pro malé potkánky nebo budete mít cestu kolem, rádi vás vybavíme vším potřebným. Napište nám, jaké věci pro Vás máme připravit, ozveme se Vám brzy zpět a na předávce se domluvíme.</p>
     
     <div class="contact-form__wrapper">
         <div class="contact-form__field contact-form__first-name">
@@ -25,10 +26,20 @@
             <label for="message"> Vaše zpráva *</label>
                 <textarea name="message" id="message">
                 </textarea>
-        </div>
-        <p class="contact-form__disclaimer">Osobní údaje, které jste nám poskytl/a, budou zpracovány výhradně za účelem vyřízení Vašeho požadavku. Odesláním formuláře se zpracováním souhlasíte.</p>
-        <div class="contact-form__field contact-form__button">
-            <button  class="contact-form__button--form" type="sumbit"> Odeslat zprávu </button>
-        </div>
+        </div>        
     </div>
+
+    <p class="contact-form__disclaimer">Osobní údaje, které jste nám poskytl/a, budou zpracovány výhradně za účelem vyřízení Vašeho požadavku. Odesláním formuláře se zpracováním souhlasíte.</p>
+
+    <div class="contact-form__checkbox">
+        <input type="checkbox" name="terms-agreement" id="terms-agreement" value="yes" required>
+        <label class="checkbox__text"  for="terms-agreement">Souhlasím s <a class="checkbox__link" href="/obchodni-podminky">Obchodními podmínkami</a></label>         
+    </div>
+      
+    <div class="contact-form__field contact-form__button">
+        <button  class="contact-form__button--form" type="sumbit"> Odeslat zprávu </button>
+    </div>
+
+    
+
 </form>

@@ -4,6 +4,8 @@ title: Miska růžová 15 cm
 perex: Nádherná asymetrická kreamická miska, ideální na suché i mokré krmení. Designový prvek, ale také velice praktická záležitost. Díky zvýšeným a směrem dovnitř zahnutým okrajům není vůbec lehké obsah vyhrabávat a tak snadno zamezíte zbytečnému plýtvání.  
 price: 290 Kč
 foto: miska-ruzova.jpg
+origin: Německo
+manufacturer: Der Mäuseschwanz
 tags: product
 ---
 

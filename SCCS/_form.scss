@@ -1,16 +1,24 @@
 @use 'colors';
+@use 'basics';
 
 .contact-form {
     background-color: colors.$background;
     width: 100%;
-    max-width: 545px;
     margin: 40px auto;
     padding: 20px 15px;
     
+    @media screen and (min-width: 900px) {
+        max-width: 1090px;
+        padding: 40px 40px;
+    }    
 
     &__wrapper {
         display: grid;
         grid-template-columns: 1fr;
+
+        @media screen and (min-width: 560px) {
+            grid-template-columns: 1fr 1fr;
+        }
     }
 
     &__title {
@@ -19,11 +27,13 @@
 
     &__description {
         text-align: center;
-        margin: 15px 0px;
+        margin: 40px 0px;
     }
 
     &__field {
         margin-bottom: 10px;
+        justify-self: center;
+        min-width: 95%;               
 
         & label {
             display: block;
@@ -32,8 +42,69 @@
 
         & input,
         & textarea {
-            width: 100%;
             font-size: 18px;
+            border: 0;
+            width: 100%;
+            padding: 7px;
+            font-family:'Assistant', sans-serif;        
+        }
+
+        & textarea {
+            height: 7em;
         }
     }
+
+    &__message,
+    &__button,
+    &__disclaimer {        
+
+        @media screen and (min-width: 560px) {
+            grid-column: 1 / 3;
+            width: 98%;
+        }
+    }
+
+    &__disclaimer {
+        text-align: center;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__button--form {
+        border: 0;
+        background-color: colors.$primary;
+        color: colors.$text-inverse;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 15px 25px;
+        margin: 15px 15px;
+        width: 200px;  
+        
+        &:hover {
+            background-color: colors.$secondary;
+        }
+    }
+
+    &__checkbox {    
+        text-align: center;
+        margin: 15px;
+        
+    }
+}
+
+.checkbox {
+
+    &__text,
+    &__link {
+    font-size: 18px;
+    color: colors.$text;
+    }
+
+    &__link:hover {
+        color: colors.$primary;
+    }
+
 }
