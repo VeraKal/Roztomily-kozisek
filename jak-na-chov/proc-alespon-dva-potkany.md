@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: Proč chovat alespoň 2 potkany?
-perex: Chovné stanice začátečníkům zadávají minimálně 2 potkánky, abych prožili většinu života alespoň ve dvojici. Proč to tak je a je to opravdu nutné?
+perex: Chovné stanice začátečníkům zadávají minimálně 2 potkánky, aby prožili většinu života alespoň ve dvojici. Proč to tak je a je to opravdu nutné?
 foto: blog10.jpg
 tags: blog
 ---

@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: Ochoč si svého potkana
-perex: Malí potkánci z dobré chovné stanice jsou na člověka zvyklí, nebo jí se ho, jsou zvědaví, co zajímavého s ním zažijí. Když se potkanovi dále věnujeme, může z něj být komunikativní parťák, který vaši přítomnost bude vyhledávat. Jak na to?
+perex: Malí potkánci z dobré chovné stanice jsou na člověka zvyklí, nebojí se ho, jsou zvědaví, co zajímavého s ním zažijí. Když se potkanovi dále věnujeme, může z něj být komunikativní parťák, který vaši přítomnost bude vyhledávat. Jak na to?
 foto: blog4.jpg
 tags: blog
 ---
