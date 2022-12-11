@@ -1,6 +1,7 @@
 @use 'colors';
 
 .cubs-reserve {
+
     @media screen and (min-width: 900px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -10,9 +11,21 @@
         margin: 0px;
     }
 
+    &__text {
+
+        text-align: center;
+
+        @media screen and (min-width: 900px) {
+            text-align: right;       
+        }
+        
+    }
+
 }
 
 .litter {
+
+    text-align: center;
 
     &__overview {
         display: grid;

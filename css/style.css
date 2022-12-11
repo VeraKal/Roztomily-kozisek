@@ -420,6 +420,9 @@ p {
   font-weight: 700;
   font-size: 18px;
 }
+.contact__email-link:hover, .contact__phone-link:hover {
+  color: #FF9AB8;
+}
 @media screen and (min-width: 500px) {
   .contact__email-link, .contact__phone-link {
     font-weight: 700;
@@ -618,7 +621,18 @@ p {
 .cubs-reserve__form {
   margin: 0px;
 }
+.cubs-reserve__text {
+  text-align: center;
+}
+@media screen and (min-width: 900px) {
+  .cubs-reserve__text {
+    text-align: right;
+  }
+}
 
+.litter {
+  text-align: center;
+}
 .litter__overview {
   display: grid;
   grid-template-columns: 1fr;

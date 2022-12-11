@@ -46,6 +46,10 @@
         font-weight: 700;
         font-size: 18px;
 
+        &:hover {
+            color: colors.$primary;
+        }
+
         @media screen and (min-width: 500px) {
         font-weight: 700;
         font-size: 28px; 
