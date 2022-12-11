@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Assistant", sans-serif;
+  font-family: "Mukta", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -498,67 +498,90 @@ p {
   line-height: 0.5em;
 }
 
-.contact-form {
+.contact-form,
+.contact-form--reserve {
   background-color: #EDEDED;
   width: 100%;
   margin: 40px auto;
   padding: 20px 15px;
 }
 @media screen and (min-width: 900px) {
-  .contact-form {
+  .contact-form,
+.contact-form--reserve {
     max-width: 1090px;
     padding: 40px 40px;
   }
+  .contact-form--reserve,
+.contact-form--reserve--reserve {
+    margin: 0 auto;
+    padding: 5px 15px;
+  }
 }
-.contact-form__wrapper {
+.contact-form__wrapper,
+.contact-form--reserve__wrapper {
   display: grid;
   grid-template-columns: 1fr;
 }
 @media screen and (min-width: 560px) {
-  .contact-form__wrapper {
+  .contact-form__wrapper,
+.contact-form--reserve__wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
-.contact-form__title {
+.contact-form__title,
+.contact-form--reserve__title {
   margin: 20px 0;
 }
-.contact-form__description {
+.contact-form__description,
+.contact-form--reserve__description {
   text-align: center;
   margin: 40px 0px;
 }
-.contact-form__field {
+.contact-form__field,
+.contact-form--reserve__field {
   margin-bottom: 10px;
   justify-self: center;
   min-width: 95%;
 }
-.contact-form__field label {
+.contact-form__field label,
+.contact-form--reserve__field label {
   display: block;
   font-size: 16px;
 }
-.contact-form__field input, .contact-form__field textarea {
+.contact-form__field input, .contact-form__field textarea,
+.contact-form--reserve__field input,
+.contact-form--reserve__field textarea {
   font-size: 18px;
   border: 0;
   width: 100%;
   padding: 7px;
-  font-family: "Assistant", sans-serif;
+  font-family: "Mukta", sans-serif;
 }
-.contact-form__field textarea {
+.contact-form__field textarea,
+.contact-form--reserve__field textarea {
   height: 7em;
 }
 @media screen and (min-width: 560px) {
-  .contact-form__message, .contact-form__button, .contact-form__disclaimer {
+  .contact-form__message, .contact-form__button, .contact-form__disclaimer,
+.contact-form--reserve__message,
+.contact-form--reserve__button,
+.contact-form--reserve__disclaimer {
     grid-column: 1/3;
     width: 98%;
   }
 }
-.contact-form__disclaimer {
+.contact-form__disclaimer,
+.contact-form--reserve__disclaimer {
   text-align: center;
+  font-size: 16px;
 }
-.contact-form__button {
+.contact-form__button,
+.contact-form--reserve__button {
   display: flex;
   justify-content: center;
 }
-.contact-form__button--form {
+.contact-form__button--form,
+.contact-form--reserve__button--form {
   border: 0;
   background-color: #FF9AB8;
   color: #ffffff;
@@ -568,20 +591,72 @@ p {
   margin: 15px 15px;
   width: 200px;
 }
-.contact-form__button--form:hover {
+.contact-form__button--form:hover,
+.contact-form--reserve__button--form:hover {
   background-color: #ff85aa;
 }
-.contact-form__checkbox {
+.contact-form__checkbox,
+.contact-form--reserve__checkbox {
   text-align: center;
   margin: 15px;
 }
 
 .checkbox__text, .checkbox__link {
-  font-size: 18px;
+  font-size: 16px;
   color: #141414;
 }
 .checkbox__link:hover {
   color: #FF9AB8;
+}
+
+@media screen and (min-width: 900px) {
+  .cubs-reserve {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.cubs-reserve__form {
+  margin: 0px;
+}
+
+.litter__overview {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 40px 15px;
+}
+@media screen and (min-width: 500px) {
+  .litter__overview {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .litter__overview {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .litter__overview {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+  }
+}
+
+.person__status--aviable {
+  background-color: #c6ebb0;
+  text-align: center;
+  margin: auto 40px;
+}
+.person__status--unaviable {
+  background-color: #D8D6D6;
+  text-align: center;
+  margin: auto 40px;
+}
+.person__status--reserved {
+  background-color: #f1daa8;
+  text-align: center;
+  margin: auto 40px;
 }
 
 .hero {
@@ -698,4 +773,11 @@ p {
 }
 .about__image {
   width: 100%;
+}
+
+.text-link {
+  color: #141414;
+}
+.text-link:hover {
+  color: #FF9AB8;
 }/*# sourceMappingURL=style.css.map */

@@ -8,6 +8,7 @@
 @use 'contact';
 @use 'breadcrumb';
 @use 'form';
+@use 'cubs-reserve';
 
 
 .hero {  
@@ -137,3 +138,10 @@
   }
 }
 
+.text-link {
+  color: colors.$text;
+
+    &:hover {
+      color: colors.$primary;
+    }
+}

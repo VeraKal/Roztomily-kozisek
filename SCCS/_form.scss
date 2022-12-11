@@ -1,15 +1,23 @@
 @use 'colors';
 @use 'basics';
 
-.contact-form {
+.contact-form,
+.contact-form--reserve {
     background-color: colors.$background;
     width: 100%;
     margin: 40px auto;
     padding: 20px 15px;
+
+    
     
     @media screen and (min-width: 900px) {
         max-width: 1090px;
         padding: 40px 40px;
+
+        &--reserve {
+            margin: 0 auto;
+            padding: 5px 15px;
+        }
     }    
 
     &__wrapper {
@@ -46,7 +54,7 @@
             border: 0;
             width: 100%;
             padding: 7px;
-            font-family:'Assistant', sans-serif;        
+            font-family: 'Mukta', sans-serif;       
         }
 
         & textarea {
@@ -66,6 +74,7 @@
 
     &__disclaimer {
         text-align: center;
+        font-size: 16px;
     }
 
     &__button {
@@ -99,7 +108,7 @@
 
     &__text,
     &__link {
-    font-size: 18px;
+    font-size: 16px;
     color: colors.$text;
     }
 

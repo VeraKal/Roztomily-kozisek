@@ -1,10 +1,23 @@
+@use 'colors';
 
+.cubs-reserve {
+    @media screen and (min-width: 900px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
 
+    &__form {
+        margin: 0px;
+    }
 
-.litter__overview {
+}
+
+.litter {
+
+    &__overview {
         display: grid;
         grid-template-columns: 1fr;
-        margin: auto 15px;
+        margin: 40px 15px;
     
         @media screen and (min-width: 500px) {
           grid-template-columns: 1fr 1fr;
@@ -21,3 +34,26 @@
           gap: 15px;
         }
     }
+
+}
+
+.person__status {
+          
+    &--aviable {
+        background-color: colors.$aviable;
+        text-align: center;       
+        margin: auto 40px;
+    }
+
+    &--unaviable {
+        background-color: colors.$unaviable;
+        text-align: center;
+        margin: auto 40px;
+    }
+
+    &--reserved {
+        background-color: colors.$reserved;
+        text-align: center;
+        margin: auto 40px;
+    }
+}
