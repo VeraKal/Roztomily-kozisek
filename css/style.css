@@ -503,7 +503,7 @@ p {
 
 .contact-form,
 .contact-form--reserve {
-  background-color: #EDEDED;
+  background-color: #EBEBEB;
   width: 100%;
   margin: 40px auto;
   padding: 20px 15px;
@@ -714,8 +714,12 @@ p {
   }
 }
 
+.why-us__description {
+  text-align: center;
+}
+
 .breeding-rats {
-  background-color: #EDEDED;
+  background-color: #EBEBEB;
 }
 .breeding-rats__title {
   padding-top: 2em;
@@ -765,6 +769,9 @@ p {
   height: 23px;
 }
 
+.about__description {
+  text-align: center;
+}
 .about__gallery {
   margin: 60px 0;
   display: grid;

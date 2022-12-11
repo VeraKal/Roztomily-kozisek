@@ -52,6 +52,13 @@
   }
 }
 
+.why-us {
+
+  &__description {
+    text-align: center;
+  }
+}
+
 .breeding-rats {
   background-color: colors.$background;
 
@@ -114,6 +121,10 @@
 }
 
 .about {
+
+    &__description {
+      text-align: center;
+    }
     
     &__gallery {
     margin: 60px 0;
