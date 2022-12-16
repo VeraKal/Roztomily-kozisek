@@ -80,6 +80,7 @@
     &__button {
         display: flex;
         justify-content: center;
+        
     }
 
     &__button--form {
@@ -94,6 +95,7 @@
         
         &:hover {
             background-color: colors.$secondary;
+            cursor: pointer;
         }
     }
 

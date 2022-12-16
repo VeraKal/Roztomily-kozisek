@@ -597,6 +597,7 @@ p {
 .contact-form__button--form:hover,
 .contact-form--reserve__button--form:hover {
   background-color: #ff85aa;
+  cursor: pointer;
 }
 .contact-form__checkbox,
 .contact-form--reserve__checkbox {
