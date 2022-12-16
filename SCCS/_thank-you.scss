@@ -22,7 +22,7 @@
 
         @media screen and (min-width: 820px) {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;            
+            grid-template-columns: 1fr 1fr 1fr;          
         }
     }
 
@@ -32,10 +32,12 @@
         justify-content: center;        
         aspect-ratio: 1 / 1;
         margin-bottom: 0px;
-
+        
         @media screen and (min-width: 820px) {
-            aspect-ratio: 1 / 3;
+            aspect-ratio: 1 / 1.5;
         }
+
+        
     }
 
     &__jak-na-chov {
