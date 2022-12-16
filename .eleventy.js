@@ -15,6 +15,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon-16x16.png");
   eleventyConfig.addPassthroughCopy("favicon-32x32.png");
   eleventyConfig.addPassthroughCopy("favicon.ico");
+  eleventyConfig.addPassthroughCopy("browserconfig.xml");
+  eleventyConfig.addPassthroughCopy("mstile-70x70.png");
+  eleventyConfig.addPassthroughCopy("mstile-144x144.png");
+  eleventyConfig.addPassthroughCopy("mstile-150x150.png");
+  eleventyConfig.addPassthroughCopy("mstile-310x150.png");
+  eleventyConfig.addPassthroughCopy("mstile-310x310.png");
+  eleventyConfig.addPassthroughCopy("safari-pinned-tab.svg");
+  eleventyConfig.addPassthroughCopy("site.webmanifest");
+ 
 
 
  
