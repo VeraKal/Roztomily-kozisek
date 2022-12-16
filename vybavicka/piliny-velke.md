@@ -1,6 +1,6 @@
 ---
 layout: layouts/product.njk
-title: Velké podestýlkové dřevěnné hobliny
+title: Velké podestýlkové dřevěné hobliny
 perex: Ideální podestýlka pro potkánky. Velké dubové hobliny nepráší, nezpůsobují otlaky na pacičkách, jsou savé a dlouho vydrží bez zápachu. Objem 15 litrů stlačeno na rozměr 40 x 35 x 20 cm pro snadné skladování.
 price: 290 Kč
 foto: piliny-jemne.jpg
